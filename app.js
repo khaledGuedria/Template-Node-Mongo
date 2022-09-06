@@ -9,7 +9,7 @@ var usersRouter = require('./routes/users');
 var personnesRouter = require('./routes/personnes');
 
 const mongoose = require('mongoose')
-mongoose.connect('mongodb+srv://Khaled:0000@cluster0.iix71.mongodb.net/workshop-esprit?retryWrites=true&w=majority', 
+mongoose.connect('MONGO-ATLAS-URL', 
 { useNewUrlParser: true, 
   useUnifiedTopology: true, 
   useCreateIndex: this.true
